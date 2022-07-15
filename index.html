@@ -1,0 +1,20 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="styles.css" rel="stylesheet"/>
+        <title>Pascals Triangle</title>
+    </head>
+    <body>
+        <h1>Pascals Triangle</h1>
+        <div id="submit-form" onsubmit="init(); return false;">
+            <form id = 'triangleRender'>
+                <input type="text" id='numOfRows' placeholder='please enter how many rows you want rendered (integer value)' required="true" maxlength = '16'>
+                <button id='render'>Render Triangle</button>
+            </form>
+        </div>
+        <div id="content" class="triangle"></div>
+        <script src="pascalsTriangle.js"></script>
+    </body>
+</html>
